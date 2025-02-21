@@ -20,3 +20,6 @@ To-Do List – Windows Desktop Application
   C# with .NET 8
   WPF for UI development
   MVC pattern for a structured and maintainable codebase
+
+-- This project was developed as part of my second-semester programming coursework 
+during my training as an Application Development IT Specialist.
