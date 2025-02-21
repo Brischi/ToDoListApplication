@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="ToDoList.View.Category2View"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ToDoList.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="450"
+             MouseDoubleClick="Category2ListBox_MouseDoubleClick">
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="Überschrift" 
+                   Style="{StaticResource TextTitle}"
+                   Text="PRIVATE" />
+
+        <!-- To-Do ListBox -->
+        <ListBox x:Name="PrivateListBox"
+                Grid.ColumnSpan="2"
+                Grid.Row="1"
+                Grid.RowSpan="5"
+                Style="{StaticResource ViewListBoxStyle}">
+        </ListBox>
+    </Grid>
+</UserControl>
