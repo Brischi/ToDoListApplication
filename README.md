@@ -1,5 +1,7 @@
 To-Do List – Windows Desktop Application
 
+-- This is my final project for the second semester of my vocational training as an IT specialist in application development, created for the programming class.
+
 -- Overview
   This is a Windows desktop application designed for efficient task management. 
   Built with WPF and following the MVC architecture, it allows users to organize 
